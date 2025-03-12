@@ -30,11 +30,11 @@ import matplotlib.pyplot as plt
 ```
 ```
 # Load the Face Image
-faceimage=cv2.imread("C:\Bhuvaneshwaran important details\SCL_0648 copy (1).jpg")
+faceimage=cv2.imread("C:\gokul important details\SCL_0648 copy (1).jpg")
 plt.imshow(faceimage[:,:,::-1]);plt.title("face")
 ```
 
-![image](https://github.com/user-attachments/assets/dc1d3f19-1d8a-4b8f-9d88-f04ad9d841f9)
+![image](https://github.com
 ```
 faceimage.shape
 ```
@@ -81,7 +81,7 @@ facewithglassesnaive=faceimage.copy()
 facewithglassesnaive[150:230, 125:295]=glassbgr
 plt.imshow(facewithglassesnaive[...,::-1])
 ```
-![iage](https://github.com/user-attachments/assets/702c4ad3-fad2-4e88-8aba-d6c83a700d7c)
+![iage](https://github.com/use
 ```
 # Make the dimensions of the mask same as the input image.
 # Since Face Image is a 3-channel image, we create a 3 channel image for the mask
